@@ -1,12 +1,17 @@
 package org.program;
 
+import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 
 import static org.program.LongestCommonPrefix.longestCommonPrefix;
+import static org.program.MergeTwoSortedList.mergeTwoLists;
 import static org.program.PalindromeNumber.isPalindrome;
 import static org.program.RomanToInteger.romanToInt;
 import static org.program.TwoSums.twoSum;
+import static org.program.ValidParentheses.isValid;
+
 
 public class Main {
     public static void main(String[] args) {
@@ -16,6 +21,12 @@ public class Main {
         romanToInt("IV");
         String[] arr1 = {"caixa", "caixote", "caixinha"};
         longestCommonPrefix(arr1);
+        isValid("([)]");
+        List lista1 = new ArrayList<>();
+//        lista1.add();
+        List lista2 = new ArrayList<>();
+//        lista2.add(0);
+        mergeTwoLists(lista1, lista2);
 
 
 //        String texto = "teste";
