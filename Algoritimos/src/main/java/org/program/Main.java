@@ -8,6 +8,7 @@ import java.util.Map;
 import static org.program.LongestCommonPrefix.longestCommonPrefix;
 import static org.program.MergeTwoSortedList.mergeTwoLists;
 import static org.program.PalindromeNumber.isPalindrome;
+import static org.program.RemoveDuplicatesFromSortedArray.removeDuplicates;
 import static org.program.RomanToInteger.romanToInt;
 import static org.program.TwoSums.twoSum;
 import static org.program.ValidParentheses.isValid;
@@ -15,18 +16,20 @@ import static org.program.ValidParentheses.isValid;
 
 public class Main {
     public static void main(String[] args) {
-        int[] arr = {2, 7, 11, 15};
-        twoSum(arr, 9);
-        isPalindrome(121);
-        romanToInt("IV");
-        String[] arr1 = {"caixa", "caixote", "caixinha"};
-        longestCommonPrefix(arr1);
-        isValid("([)]");
-        List lista1 = new ArrayList<>();
-//        lista1.add();
-        List lista2 = new ArrayList<>();
+//        int[] arr = {2, 7, 11, 15};
+//        twoSum(arr, 9);
+//        isPalindrome(121);
+//        romanToInt("IV");
+//        String[] arr1 = {"caixa", "caixote", "caixinha"};
+//        longestCommonPrefix(arr1);
+//        isValid("([)]");
+//        List lista1 = new ArrayList<>();
+//        lista1.add(1);
+//        List lista2 = new ArrayList<>();
 //        lista2.add(0);
-        mergeTwoLists(lista1, lista2);
+//        mergeTwoLists(lista1, lista2);
+        int[] arr2 = {1,1,2};
+        removeDuplicates(arr2);
 
 
 //        String texto = "teste";
