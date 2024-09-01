@@ -19,7 +19,6 @@ public class RemoveDuplicatesFromSortedArray {
                     list.remove(j);
                 }
             }
-
         }
         System.out.println(Arrays.toString(list.toArray()));
         System.out.println(list.size());
